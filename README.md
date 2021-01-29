@@ -1,16 +1,24 @@
 ## Contents
 
-[Java](/java)
+[Java](https://github.com/meeansub/StudyKit/tree/main/Java)
+
 [SpringFramework](/SpringFramework)
-[Web](/Web)
+
+[Web](https://github.com/meeansub/StudyKit/tree/main/Web)
+
 [DesignPattern](/DesignPattern)
+
 [DataStructure](/DataStructure)
+
 [Database](/Database)
+
 [Network](/Network)
+
 [JPA](/JPA)
+
 [Mybatis](/Mybatis)
 
 #### ETC
-[Markdown](/Markdown)
+[Markdown](https://github.com/meeansub/StudyKit/tree/main/Markdown)
 
 ---

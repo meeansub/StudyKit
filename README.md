@@ -2,21 +2,21 @@
 
 [Java](https://github.com/meeansub/StudyKit/tree/main/Java)
 
-[SpringFramework](/SpringFramework)
+[SpringFramework](https://github.com/meeansub/StudyKit/tree/main/SpringFramework)
 
 [Web](https://github.com/meeansub/StudyKit/tree/main/Web)
 
-[DesignPattern](/DesignPattern)
+[DesignPattern](https://github.com/meeansub/StudyKit/tree/main/DesignPattern)
 
-[DataStructure](/DataStructure)
+[DataStructure](https://github.com/meeansub/StudyKit/tree/main/DataStructure)
 
-[Database](/Database)
+[Database](https://github.com/meeansub/StudyKit/tree/main/Database)
 
-[Network](/Network)
+[Network](https://github.com/meeansub/StudyKit/tree/main/Network)
 
-[JPA](/JPA)
+[JPA](https://github.com/meeansub/StudyKit/tree/main/JPA)
 
-[Mybatis](/Mybatis)
+[Mybatis](https://github.com/meeansub/StudyKit/tree/main/Mybatis)
 
 #### ETC
 [Markdown](https://github.com/meeansub/StudyKit/tree/main/Markdown)

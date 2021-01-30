@@ -13,7 +13,7 @@
 
 **ex)**
 
-![callbyvalue](img/callbyvalue.png)
+![callbyvalue](img/callbyvalue.png)  
 print로 출력되는 n의 값은 그대로 10이 출력된다
 
 
@@ -27,7 +27,7 @@ call by reference 호출 방식은 함수 호출 시 인자값을 메소드로 �
 
 **ex)**
 
-![callbyreference](img/callbyreference.png)
+![callbyreference](img/callbyreference.png)  
 printf로 출력되는 n의 값은 20이 된다
 
 </br>
@@ -50,7 +50,7 @@ reference type(참조 자료형)을 넘길 시에는 해당 객체의 주소값�
 
 같은 객체를 가리키도록 하는 방식이라는 것이다
 
-![javacall](img/javacall.png)
+![javacall](img/javacall.png)  
 자바는 call by value로 모든 메소드 호출 수행
 
 ---

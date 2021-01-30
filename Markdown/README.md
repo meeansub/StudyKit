@@ -1,3 +1,9 @@
+---
+
+- 목차
+
+---
+
 # **Markdown**
 
 일반 텍스트 문서의 양식을 편집하는 문법으로 텍스트에 태그를 이용하여 글자에 속성을 주거나, 이미지를 삽입하고 조작하는 일이 가능하다.
@@ -61,6 +67,7 @@
 ```
 줄 바꾸는 방법은 라인의 마지막에 공백 두 칸 을 추가  
 그럼 줄바꿈이 된다.
+
 ```
 
 문단을 구분하려면 `Enter를 두번` 입력하면 된다.
@@ -84,15 +91,12 @@ _single underscores_
 **double asterisks**  //볼드체
 __double underscores__
 ~~cancelline~~
+
 ```
 
-*single asterisks*
-_single underscores_
-**double asterisks**
-__double underscores__
-~~cancelline~~
+*single asteriskssingle underscores***double asterisksdouble underscores**cancelline
 
->문장 중간에 사용할 경우에는 띄어쓰기를 사용하는것이 좋다.
+> 문장 중간에 사용할 경우에는 띄어쓰기를 사용하는것이 좋다.
 
 <br/>
 
@@ -124,6 +128,7 @@ __double underscores__
 1. 1번
 2. 2번
 3. 3번
+
 ```
 
 1. 1번
@@ -138,7 +143,7 @@ __double underscores__
 
 ## **순서 없는 목록**
 
-순서 없는 목록은 `*`, `+`, `-` 세 가지 방법을 사용할 수 있다. 들여쓰기를 하면 하위의 목록으로 만들 수 있다.
+순서 없는 목록은 ``, `+`, `` 세 가지 방법을 사용할 수 있다. 들여쓰기를 하면 하위의 목록으로 만들 수 있다.
 
 ```
 * 순서가 없는 목록1
@@ -182,12 +187,14 @@ ex)
 
 This is a normal paragraph:
 
-    This is a code block.
+```
+This is a code block.
+
+```
 
 end code block.
 
-
-#### 주의)
+### 주의)
 
 한줄 띄어쓰지 않으면 인식이 제대로 안되는 문제가 발생한다.
 
@@ -195,12 +202,13 @@ end code block.
 This is a normal paragraph:
     This is a code block.
 end code block.
+
 ```
 
 적용 예)
 
 This is a normal paragraph:
-    This is a code block.
+This is a code block.
 end code block.
 
 <br/>
@@ -209,16 +217,19 @@ end code block.
 
 ## **수평선**
 
-
 수평선 을 만들 때는 다음과 같은 방법이 있다. 최소 개수(보통 3개)만 존재하며, 그 이상은 몇개를 써도 상관없다.
 
 ```
 ***
 ---
 <hr/>
-````
+
+```
+
 ---
-***
+
+---
+
 <hr/>
 
 <br/>
@@ -229,9 +240,8 @@ end code block.
 
 코드블럭은 다음과 같이 2가지 방식을 사용할 수 있다.
 
-* 코드블럭코드 **```**
-
-* `<pre><code>{code}</code></pre>` 이용방식
+- 코드블럭코드 **```**
+- `<pre><code>{code}</code></pre>` 이용방식
 
 <pre>
 <code>
@@ -243,7 +253,9 @@ public class BootSpringBootApplication {
   }
 
 }
+
 ```
+
 </code>
 </pre>
 
@@ -260,8 +272,6 @@ public class BootSpringBootApplication {
 </pre>
 
 ```
-
-<br/>
 
 ---
 
@@ -271,16 +281,17 @@ public class BootSpringBootApplication {
 
 ```
 [link keyword](url)
+
 ```
 
 ex)
 
 ```
 [네이버](naver.com)
-```
-[네이버](naver.com)
 
-<br/>
+```
+
+[네이버](https://www.notion.so/sublivan/naver.com)
 
 ---
 
@@ -294,9 +305,9 @@ ex)
 ```
 
 와 같이 작성한 뒤 업로드하면,보여지는 텍스트 클릭 시 "#이동할위치의텍스트"로 이동하는 것을 확인할 수 있다.
-(기본 링크 작성 방법-[텍스트](링크) 과 동일하다)
+(기본 링크 작성 방법-[텍스트](https://www.notion.so/sublivan/%EB%A7%81%ED%81%AC) 과 동일하다)
 
-물론 [#으로](https://blog.naver.com/PostListByTagName.nhn?blogId=a1010100z&encodedTagName=%EC%9C%BC%EB%A1%9C) 시작하니까 헤더처리된다. 
+물론 [#으로](https://blog.naver.com/PostListByTagName.nhn?blogId=a1010100z&encodedTagName=%EC%9C%BC%EB%A1%9C) 시작하니까 헤더처리된다.
 
 여기서 이동할위치의텍스트부분을 작성할 때 영어는 반드시 "소문자"만 가능하며 띄어쓰기는 - 로 구분해야한다.
 
@@ -306,6 +317,7 @@ ex)
 [Stack](#stack-program)
 ~생략~
 #Stack Program
+
 ```
 
 <br/>
@@ -321,11 +333,12 @@ ex)
 
 ```
 
-#### 다른 방법
+### 다른 방법
 
-* 사이즈 조절 기능 시작하기위해선 `<img width="" height=""></img>` 를 사용한다.
+- 사이즈 조절 기능 시작하기위해선 `<img width="" height=""></img>` 를 사용한다.
 
 ex)
+
 ```
 <img src="/path/to/img.jpg" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
 <img src="/path/to/img.jpg" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
@@ -346,15 +359,11 @@ ex)
 |테스트1|테스트2|테스트3|
 |테스트4|테스트5|테스트6|
 |테스트7|테스트8|테스트9|
+
 ```
 
-|제목|내용|설명|
-|---|---|---|
-|테스트1|테스트2|테스트3|
-|테스트4|테스트5|테스트6|
-|테스트7|테스트8|테스트9|
+### 정렬 사용
 
-#### 정렬 사용
 > : 문자를 사용하여 정렬을 정의할 수 있다.
 
 ```
@@ -366,13 +375,7 @@ ex)
 
 ```
 
-|제목|내용|설명|
-|:---|---:|:---:|
-|왼쪽정렬|오른쪽정렬|중앙정렬|
-|왼쪽정렬|오른쪽정렬|중앙정렬|
-|왼쪽정렬|오른쪽정렬|중앙정렬|
-
-#### 셀 확장
+### 셀 확장
 
 > |사이가 비어있으면 자동 확장된다.
 
@@ -385,16 +388,9 @@ ex)
 
 ```
 
-|제목|내용|설명|
-|:---|:---:|---:|
-||중앙에서확장||
-|||오른쪽에서 확장|
-|왼쪽에서확장||
+### 셀 강조
 
-
-#### 셀 강조
-
->일반적인 text와 마찬가지로 * 와 ** 를 통해 이탤릭/강조를 표시할 수 있다.
+> 일반적인 text와 마찬가지로 * 와 ** 를 통해 이탤릭/강조를 표시할 수 있다.
 span tag를 사용하면 컬러도 표시할 수 있다.
 
 ```
@@ -403,22 +399,35 @@ span tag를 사용하면 컬러도 표시할 수 있다.
 |테스트1|*강조1*|테스트3|
 |테스트1|**강조2**|테스트3|
 |테스트1|<span style="color:red">강조3</span>|테스트3|
+
 ```
 
-|제목|내용|설명|
-|---|---|---|
-|테스트1|*강조1*|테스트3|
-|테스트1|**강조2**|테스트3|
-|테스트1|<span style="color:red">강조3</span>|테스트3|
+</br>
 
+## **토글 리스트 (접기/펼치기)**
 
-<br/>
-<br/>
+나는 Notion을 사용했었기 때문에 토글 리스트란 이름이 더 익숙하다. 마크다운에선 지원하지 않고 HTML의 `details` 태그로 사용 가능하다. `div markdown=”1”` 은 jekyll에서 html사이에 markdown을 인식 하기 위한 코드이다. 
+
+```java
+<details>
+<summary>여기를 눌러주세요</summary>
+<div markdown="1">       
+
+😎숨겨진 내용😎
+
+</div>
+</details>
+```
+
+- 여기를 눌러주세요
 
 ---
 
-#### 참고
+</br>
+
+### 참고
 
 - [허니몬의 마크다운 작성법](https://gist.github.com/ihoneymon/652be052a0727ad59601)
 - [놀부의 마크다운 사용법](https://nolboo.kim/blog/2014/04/15/how-to-use-markdown/)
 - [나무위키 - 마크다운](https://namu.wiki/w/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4)
+- [https://ansohxxn.github.io/blog/markdown/](https://ansohxxn.github.io/blog/markdown/)
